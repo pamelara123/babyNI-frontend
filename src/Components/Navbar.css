@@ -1,0 +1,72 @@
+.navbar {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    background-color: #1C4E80;
+    border-radius: 5px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+/* .navbar > div {
+    margin-right: 5rem;
+    box-shadow: none;
+} */
+
+/* Add space between nealias and netype */
+.radio-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 15rem;
+    color:white;
+  }
+  
+  .radio-buttons label {
+    margin-right: 60px;
+    font-size: 1.3rem;
+  }
+  
+  .datepickers {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  /* .datepickers .react-datepicker-wrapper,
+  .datepickers .react-datepicker__input-container {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .datepickers .react-datepicker__input-container input {
+    height: 2rem;
+    width: 8rem;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .datepickers .react-datepicker__input-container input:hover {
+    background-color: #8cccf4;
+  }
+  
+
+  .radio-buttons button {
+    background-color:#8cccf4; /* Green color for success */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .radio-buttons button:hover {
+    background-color: #a04545; /* Darker green on hover */
+  }
+ 

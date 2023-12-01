@@ -1,0 +1,41 @@
+.container {
+    height: 100%;
+    width: 13%;
+    position: fixed;
+    padding: 0.2rem 1rem;
+    background-color: #1C4E80;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.logo-icon {
+    margin-right: 0.5rem;
+}
+
+.menu {
+    margin: 2rem 0;
+    display: grid;
+}
+
+.item {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2rem 5rem;
+    height: 2.5rem;
+    margin: 1rem 0;
+    padding-left: 1rem;
+    row-gap: 2rem;
+    align-items: center;
+    color: #1e67e7;
+    background-color: #fff;
+    border-radius: 5rem;
+    transition: 0.2s all smooth;
+}
+
+
